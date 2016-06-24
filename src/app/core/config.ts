@@ -2,8 +2,8 @@ declare let jQuery: any;
 
 export class ConfigService {
   config = {
-    name: 'sing',
-    title: 'Sing - Dashboard',
+    name: 'Cluj- All Inclusive',
+    title: 'Cluj- All Inclusive',
     version: '2.0.0',
     /**
      * Whether to print and alert some log information
