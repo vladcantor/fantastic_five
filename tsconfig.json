@@ -66,6 +66,7 @@
         "./src/app/forms-validation/forms-validation.ts",
         "./src/app/forms-wizard/bootstrap-application-wizard/bootstrap-application-wizard.ts",
         "./src/app/forms-wizard/forms-wizard.ts",
+        "./src/app/unde-mi-e-nevasta/unde-mi-e-nevasta.ts",
         "./src/app/grid/grid-demo/grid-demo.ts",
         "./src/app/grid/grid.ts",
         "./src/app/inbox/inbox.ts",
