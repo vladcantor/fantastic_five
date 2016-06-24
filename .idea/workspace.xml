@@ -34,12 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms-wizard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms-wizard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="163" column="74" selection-start-line="163" selection-start-column="74" selection-end-line="163" selection-end-column="74" />
+            <state relative-caret-position="338">
+              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms-wizard.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +59,8 @@
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -57,10 +69,50 @@
       <file leaf-file-name="forms-elements.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="1009" column="57" selection-start-line="1009" selection-start-column="57" selection-end-line="1009" selection-end-column="57" />
+            <state relative-caret-position="307">
+              <caret line="837" column="66" selection-start-line="837" selection-start-column="66" selection-end-line="837" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms-wizard.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/select2/select2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms-elements.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms-elements.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
-                <element signature="n#select#0;n#div#0;n#div#3;n#fieldset#0;n#form#0;n#div#0;n#section#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#0#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +126,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.ts" />
         <option value="$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.html" />
       </list>
     </option>
@@ -243,7 +296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="forms-elements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,10 +319,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sidebar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,12 +393,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466791393106</updated>
-      <workItem from="1466791394704" duration="2452000" />
+      <workItem from="1466791394704" duration="4051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2452000" />
+    <option name="totallyTimeSpent" value="4051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -392,27 +441,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/select2/select2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/forms-elements/forms-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="1009" column="57" selection-start-line="1009" selection-start-column="57" selection-end-line="1009" selection-end-column="57" />
-          <folding>
-            <element signature="n#select#0;n#div#0;n#div#3;n#fieldset#0;n#form#0;n#div#0;n#section#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="837" column="66" selection-start-line="837" selection-start-column="66" selection-end-line="837" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="163" column="74" selection-start-line="163" selection-start-column="74" selection-end-line="163" selection-end-column="74" />
+        <state relative-caret-position="338">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
