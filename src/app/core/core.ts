@@ -12,6 +12,7 @@ import {Profile} from '../profile/profile';
 import {FormsElements} from '../forms-elements/forms-elements';
 import {FormsValidation} from '../forms-validation/forms-validation';
 import {FormsWizard} from '../forms-wizard/forms-wizard';
+import {UndeMiENevasta} from '../unde-mi-e-nevasta/unde-mi-e-nevasta';
 import {UiComponents} from '../ui-components/ui-components';
 import {UiNotifications} from '../ui-notifications/ui-notifications';
 import {UiIcons} from '../ui-icons/ui-icons';
@@ -55,6 +56,7 @@ declare var Tether: any;
   { path: '/forms/elements', component: FormsElements, name: 'Elements' },
   { path: '/forms/validation', component: FormsValidation, name: 'Validation' },
   { path: '/forms/wizard', component: FormsWizard, name: 'Wizard' },
+  { path: '/forms/nevasta', component: UndeMiENevasta, name: 'Nevasta' },
   { path: '/ui/components', component: UiComponents, name: 'Components' },
   { path: '/ui/notifications', component: UiNotifications, name: 'Notifications' },
   { path: '/ui/icons', component: UiIcons, name: 'Icons' },
