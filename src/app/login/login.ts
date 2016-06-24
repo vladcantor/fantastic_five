@@ -1,5 +1,5 @@
 import {Component, ViewEncapsulation} from '@angular/core';
-import {ROUTER_DIRECTIVES} from '@angular/router-deprecated';
+import {ROUTER_DIRECTIVES, Router} from '@angular/router-deprecated';
 
 @Component({
   directives: [
@@ -13,5 +13,6 @@ import {ROUTER_DIRECTIVES} from '@angular/router-deprecated';
   encapsulation: ViewEncapsulation.None,
   styles: [require('./login.scss')]
 })
+
 export class LoginPage {
 }
