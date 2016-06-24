@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de8a016-8156-40a3-8c76-c906fd518c55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/core/core.html" afterPath="$PROJECT_DIR$/src/app/core/core.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/core/navbar/navbar.html" afterPath="$PROJECT_DIR$/src/app/core/navbar/navbar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/core/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/src/app/core/sidebar/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/src/app/dashboard/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/grid/grid.html" afterPath="$PROJECT_DIR$/src/app/grid/grid.html" />
     </list>
     <ignored path="Cluj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,55 +27,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#h5#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#2;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="274" column="35" selection-start-line="274" selection-start-column="35" selection-end-line="274" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
-                <marker date="1466791143056" expanded="true" signature="14149:15163" ph="[...]" />
-                <marker date="1466791143056" expanded="true" signature="14167:14391" ph="[...]" />
-                <marker date="1466791143056" expanded="true" signature="14409:14673" ph="[...]" />
-                <marker date="1466791143056" expanded="true" signature="14691:14929" ph="[...]" />
-                <marker date="1466791143056" expanded="true" signature="14947:15149" ph="[...]" />
+                <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#3;n#!!top" expanded="false" />
+                <marker date="1466811358604" expanded="true" signature="14149:15163" ph="[...]" />
+                <marker date="1466811358604" expanded="true" signature="14167:14391" ph="[...]" />
+                <marker date="1466811358604" expanded="true" signature="14409:14673" ph="[...]" />
+                <marker date="1466811358604" expanded="true" signature="14691:14929" ph="[...]" />
+                <marker date="1466811358604" expanded="true" signature="14947:15149" ph="[...]" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grid.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/grid/grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="266">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#1;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/core/core.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/core/core.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#h5#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/grid/grid.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/core/navbar/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -117,33 +164,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="812" column="14" selection-start-line="812" selection-start-column="14" selection-end-line="812" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invoice-logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/images/logo/invoice-logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glyphicons.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/parsleyjs/bower_components/bootstrap/less/glyphicons.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -155,9 +175,12 @@
         <option value="$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.ts" />
         <option value="$PROJECT_DIR$/src/app/forms-wizard/forms-wizard.html" />
         <option value="$PROJECT_DIR$/src/app/core/config.ts" />
-        <option value="$PROJECT_DIR$/src/app/core/sidebar/sidebar.html" />
         <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/app/core/sidebar/sidebar.html" />
         <option value="$PROJECT_DIR$/src/app/core/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/src/app/core/core.html" />
+        <option value="$PROJECT_DIR$/src/app/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/src/app/grid/grid.html" />
       </list>
     </option>
   </component>
@@ -260,7 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,11 +301,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="grid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,15 +323,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logo" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,12 +402,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466791393106</updated>
-      <workItem from="1466791394704" duration="15053000" />
+      <workItem from="1466791394704" duration="18518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15053000" />
+    <option name="totallyTimeSpent" value="18518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -598,34 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h5#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="274" column="35" selection-start-line="274" selection-start-column="35" selection-end-line="274" selection-end-column="35" />
-          <folding>
-            <marker date="1466791143056" expanded="true" signature="14149:15163" ph="[...]" />
-            <marker date="1466791143056" expanded="true" signature="14167:14391" ph="[...]" />
-            <marker date="1466791143056" expanded="true" signature="14409:14673" ph="[...]" />
-            <marker date="1466791143056" expanded="true" signature="14691:14929" ph="[...]" />
-            <marker date="1466791143056" expanded="true" signature="14947:15149" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/logo/invoice-logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -685,22 +676,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/grid/grid.html">
+    <entry file="file://$PROJECT_DIR$/src/app/grid/grid.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/core/sidebar/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
           <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h5#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/core/navbar/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/core/core.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/core/core.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#progress#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#progress#0;n#div#1;n#div#0;n#section#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#3;n#!!top" expanded="false" />
+            <marker date="1466811358604" expanded="true" signature="14149:15163" ph="[...]" />
+            <marker date="1466811358604" expanded="true" signature="14167:14391" ph="[...]" />
+            <marker date="1466811358604" expanded="true" signature="14409:14673" ph="[...]" />
+            <marker date="1466811358604" expanded="true" signature="14691:14929" ph="[...]" />
+            <marker date="1466811358604" expanded="true" signature="14947:15149" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/grid/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#1;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

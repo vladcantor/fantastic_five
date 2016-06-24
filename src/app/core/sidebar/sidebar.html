@@ -22,10 +22,10 @@
     <!-- #notifications-dropdown-menu goes here when screen collapsed to xs or sm -->
   </div>
   <div class="student" ng-show="logProfil == 'student'">
-  <h5 class="sidebar-nav-title" style="margin-top: 100px;">Student <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
+  <h5 class="sidebar-nav-title" style="margin-top: 100px;">Student <a class="action-link" [routerLink]=" ['Grid']" ><i class="glyphicon glyphicon-refresh"></i></a></h5>
   <ul class="sidebar-nav student">
     <li>
-      <a class="collapsed" data-target="#sidebar-levels" data-toggle="collapse" data-parent="#sidebar">
+      <a class="collapsed" data-target="#sidebar-levels" data-toggle="collapse" data-parent="#sidebar" [routerLink]=" ['Grid']">
           <span class="icon">
             <i class="glyphicon glyphicon-th"></i>
           </span>
@@ -71,10 +71,10 @@
   </ul>
   </div>
   <div ng-show="logProfil == 'cetatean'" class="cetatean">
-    <h5 class="sidebar-nav-title" style="margin-top: 100px;">Cetatean <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
+    <h5 class="sidebar-nav-title" style="margin-top: 100px;">Cetatean <a class="action-link" [routerLink]=" ['Grid']"><i class="glyphicon glyphicon-refresh"></i></a></h5>
   <ul class="sidebar-nav cetatean">
     <li>
-      <a class="collapsed" data-target="#sidebar-levels-cetatean" data-toggle="collapse" data-parent="#sidebar">
+      <a class="collapsed" data-target="#sidebar-levels-cetatean" data-toggle="collapse" data-parent="#sidebar" [routerLink]=" ['Grid']">
           <span class="icon">
             <i class="glyphicon glyphicon-th"></i>
           </span>
