@@ -4,6 +4,7 @@
   </header>
   <!-- seems like lots of recent admin template have this feature of user info in the sidebar.
        looks good, so adding it and enhancing with notifications -->
+  <label type ="text" style="display: none;" ng-model="logProfil" id="log" text="cetatean">cetatean</label>
   <div class="sidebar-status hidden-md-up">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <span class="thumb-sm avatar pull-xs-right">
@@ -20,7 +21,7 @@
     </a>
     <!-- #notifications-dropdown-menu goes here when screen collapsed to xs or sm -->
   </div>
-  <div class="student">
+  <div class="student" ng-show="logProfil == 'student'">
   <h5 class="sidebar-nav-title" style="margin-top: 100px;">Student <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
   <ul class="sidebar-nav student">
     <li>
@@ -69,7 +70,7 @@
     </li>
   </ul>
   </div>
-  <div class="cetatean">
+  <div ng-show="logProfil == 'cetatean'" class="cetatean">
     <h5 class="sidebar-nav-title" style="margin-top: 100px;">Cetatean <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
   <ul class="sidebar-nav cetatean">
     <li>
