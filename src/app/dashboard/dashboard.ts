@@ -1,3 +1,4 @@
+import {ROUTER_DIRECTIVES} from '@angular/router-deprecated';
 import {Component, ViewEncapsulation} from '@angular/core';
 import {Widget} from '../core/widget/widget';
 import {ProgressAnimate} from '../core/utils/progress-animate';
@@ -11,7 +12,7 @@ import {ConfigService} from '../core/config';
 @Component({
   selector: 'dashboard',
   template: require('./dashboard.html'),
-  directives: [Widget, ProgressAnimate, AnimateNumber, CheckAll, GeoLocationsWidget, MarkerStatsWidget, BootstrapCalendar],
+  directives: [ROUTER_DIRECTIVES, Widget, ProgressAnimate, AnimateNumber, CheckAll, GeoLocationsWidget, MarkerStatsWidget, BootstrapCalendar],
   styles: [require('./dashboard.scss')],
   encapsulation: ViewEncapsulation.None
 })
