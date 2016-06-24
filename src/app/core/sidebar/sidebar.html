@@ -20,204 +20,99 @@
     </a>
     <!-- #notifications-dropdown-menu goes here when screen collapsed to xs or sm -->
   </div>
-  <!-- main notification links are placed inside of .sidebar-nav -->
-  <ul class="sidebar-nav">
-    <li>
-      <a class="collapsed" data-target="#sidebar-dashboard" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="fa fa-desktop"></i>
-          </span>
-        Dashboard
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-dashboard" class="collapse">
-        <li><a [routerLink]=" ['Dashboard'] ">Dashboard</a></li>
-        <li><a [routerLink]=" ['Widgets'] ">Widgets</a></li>
-      </ul>
-    </li>
-    <li>
-      <a [routerLink]=" ['Inbox'] " data-ui-sref="app.inbox">
-          <span class="icon">
-            <i class="fa fa-envelope"></i>
-          </span>
-        Email
-          <span class="label label-danger">
-            9
-          </span>
-      </a>
-    </li>
-    <li>
-      <a [routerLink]=" ['Charts'] ">
-          <span class="icon">
-            <i class="glyphicon glyphicon-stats"></i>
-          </span>
-        Charts
-      </a>
-    </li>
-    <li>
-      <a [routerLink]=" ['Profile'] ">
-          <span class="icon">
-            <i class="glyphicon glyphicon-user"></i>
-          </span>
-        Profile
-        <sup class="text-warning fw-semi-bold">
-          new
-        </sup>
-      </a>
-    </li>
-  </ul>
-  <!-- every .sidebar-nav may have a title -->
-  <h5 class="sidebar-nav-title">Template <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
-  <ul class="sidebar-nav">
-    <li>
-      <!-- an example of nested submenu. basic bootstrap collapse component -->
-      <a class="collapsed" data-target="#sidebar-forms" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="glyphicon glyphicon-align-right"></i>
-          </span>
-        Forms
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-forms" class="collapse">
-        <li><a [routerLink]=" ['Elements'] ">Form Elements</a></li>
-        <li><a [routerLink]=" ['Validation'] ">Form Validation</a></li>
-        <li><a [routerLink]=" ['Wizard'] ">Form Wizard</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="collapsed" data-target="#sidebar-ui" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="glyphicon glyphicon-tree-conifer"></i>
-          </span>
-        UI Elements
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-ui" class="collapse">
-        <li><a [routerLink]=" ['Components'] ">Components</a></li>
-        <li><a [routerLink]=" ['Notifications'] ">Notifications</a></li>
-        <li><a [routerLink]=" ['Icons'] ">Icons</a></li>
-        <li><a [routerLink]=" ['Buttons'] ">Buttons</a></li>
-        <li><a [routerLink]=" ['TabsAccordion'] ">Tabs & Accordion</a></li>
-        <li><a [routerLink]=" ['ListGroups'] ">List Groups</a></li>
-      </ul>
-    </li>
-    <li>
-      <a [routerLink]=" ['Grid'] ">
-          <span class="icon">
-            <i class="glyphicon glyphicon-th"></i>
-          </span>
-        Grid
-      </a>
-    </li>
-    <li>
-      <a class="collapsed" data-target="#sidebar-maps" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="glyphicon glyphicon-map-marker"></i>
-          </span>
-        Maps
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-maps" class="collapse">
-        <li><a [routerLink]=" ['MapsGoogle'] ">Google Maps</a></li>
-        <li><a [routerLink]=" ['MapsVector'] ">Vector Maps</a></li>
-      </ul>
-    </li>
-    <li>
-      <!-- an example of nested submenu. basic bootstrap collapse component -->
-      <a class="collapsed" data-target="#sidebar-tables" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="fa fa-table"></i>
-          </span>
-        Tables
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-tables" class="collapse">
-        <li><a [routerLink]=" ['TablesBasic'] ">Tables Basic</a></li>
-        <li><a [routerLink]=" ['TablesDynamic'] ">Tables Dynamic <sup class="bg-transparent text-danger fs-sm fw-bold">ng</sup></a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="collapsed" data-target="#sidebar-extra" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
-            <i class="fa fa-leaf"></i>
-          </span>
-        Extra
-        <i class="toggle fa fa-angle-down"></i>
-      </a>
-      <ul id="sidebar-extra" class="collapse">
-        <li><a [routerLink]=" ['Calendar'] ">Calendar <sup class="bg-transparent text-danger fs-sm fw-bold">ng</sup></a></li>
-        <li><a [routerLink]=" ['Invoice'] ">Invoice</a></li>
-        <li><a [routerLink]=" ['/LoginPage'] ">Login Page</a></li>
-        <li><a [routerLink]=" ['/ErrorPage'] ">Error Page</a></li>
-        <li><a [routerLink]=" ['Gallery'] ">Gallery <sup class="bg-transparent text-danger fs-sm fw-bold">ng</sup></a></li>
-        <li><a [routerLink]=" ['Search'] ">Search Results</a></li>
-        <li><a [routerLink]=" ['Timeline'] ">Time Line</a></li>
-      </ul>
-    </li>
+  <div class="student">
+  <h5 class="sidebar-nav-title" style="margin-top: 100px;">Student <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
+  <ul class="sidebar-nav student">
     <li>
       <a class="collapsed" data-target="#sidebar-levels" data-toggle="collapse" data-parent="#sidebar">
           <span class="icon">
-            <i class="fa fa-folder-open"></i>
+            <i class="glyphicon glyphicon-th"></i>
           </span>
-        Menu Levels
+        Profil
         <i class="toggle fa fa-angle-down"></i>
       </a>
       <ul id="sidebar-levels" class="collapse">
-        <li><a href>Level 1</a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-globe"></i>
+          </span>
+          Ce se intampla amu?
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-plane"></i>
+          </span>
+          Zboara puiule, zboara
+        </a></li>
         <li>
           <a class="collapsed" data-target="#sidebar-sub-levels" data-toggle="collapse" data-parent="#sidebar-levels">
-            Level 2
+            Vreme
             <i class="toggle fa fa-angle-down"></i>
           </a>
           <ul id="sidebar-sub-levels" class="collapse">
-            <li><a href>Level 3</a></li>
-            <li><a href>Level 3</a></li>
+            <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-eye-open"></i>
+          </span>
+              Unde ma joc?
+            </a></li>
+            <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-warning-sign"></i>
+          </span>
+             Oare ploua si pe centru?
+            </a></li>
           </ul>
         </li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-home "></i>
+          </span>
+          Mama, ce bine miroase
+        </a></li>
       </ul>
     </li>
   </ul>
-  <h5 class="sidebar-nav-title">Labels <a class="action-link" href="#"><i class="glyphicon glyphicon-plus"></i></a></h5>
-  <!-- some styled links in sidebar. ready to use as links to email folders, projects, groups, etc -->
-  <ul class="sidebar-labels">
+  </div>
+  <div class="cetatean">
+    <h5 class="sidebar-nav-title" style="margin-top: 100px;">Cetatean <a class="action-link" href="#"><i class="glyphicon glyphicon-refresh"></i></a></h5>
+  <ul class="sidebar-nav cetatean">
     <li>
-      <a href="#">
-        <!-- yep, .circle again -->
-        <i class="fa fa-circle text-warning mr-xs"></i>
-        <span class="label-name">My Recent</span>
+      <a class="collapsed" data-target="#sidebar-levels-cetatean" data-toggle="collapse" data-parent="#sidebar">
+          <span class="icon">
+            <i class="glyphicon glyphicon-th"></i>
+          </span>
+        Profil
+        <i class="toggle fa fa-angle-down"></i>
       </a>
-    </li>
-    <li>
-      <a href="#">
-        <i class="fa fa-circle text-gray mr-xs"></i>
-        <span class="label-name">Starred</span>
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i class="fa fa-circle text-danger mr-xs"></i>
-        <span class="label-name">Background</span>
-      </a>
+      <ul id="sidebar-levels-cetatean" class="collapse">
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-globe"></i>
+          </span>
+          Ce se intampla amu?
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-map-marker"></i>
+          </span>
+          Unde mi-i nevasta?
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-warning-sign"></i>
+          </span>
+          Oare ploua si pe centru?
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-user "></i>
+          </span>
+          Vecine, bem o bere?
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-home "></i>
+          </span>
+          Mama, ce bine miroase
+        </a></li>
+        <li><a href><span class="icon">
+            <i class="glyphicon glyphicon-credit-card "></i>
+          </span>
+          Pe asta unde-l dau?
+        </a></li>
+      </ul>
     </li>
   </ul>
-  <h5 class="sidebar-nav-title">Projects</h5>
-  <!-- A place for sidebar notifications & alerts -->
-  <div class="sidebar-alerts">
-    <div class="alert fade in">
-      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
-      <span class="text-white fw-semi-bold">Sales Report</span> <br>
-      <div class="bg-gray-transparent progress-bar">
-        <progress class="progress progress-xs progress-bar-gray-light mt-xs mb-0" value="100" max="100" style="width: 16%"></progress>
-      </div>
-      <small>Calculating x-axis bias... 65%</small>
-    </div>
-    <div class="alert fade in">
-      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
-      <span class="text-white fw-semi-bold">Personal Responsibility</span> <br>
-      <div class="bg-gray-transparent progress-bar">
-        <progress class="progress progress-xs progress-danger mt-xs mb-0" value="100" max="100" style="width: 23%"></progress>
-      </div>
-      <small>Provide required notes</small>
-    </div>
-  </div>
+</div>
 </div>
