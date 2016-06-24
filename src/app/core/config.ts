@@ -30,14 +30,14 @@ export class ConfigService {
         'brand-info': '#5dc4bf'
       },
       screens: {
-        'xs-max': 543,
-        'sm-min': 544,
-        'sm-max': 767,
-        'md-min': 768,
-        'md-max': 991,
-        'lg-min': 992,
-        'lg-max': 1199,
-        'xl-min': 1200
+        'xs-max': 643,
+        'sm-min': 644,
+        'sm-max': 867,
+        'md-min': 868,
+        'md-max': 1091,
+        'lg-min': 1092,
+        'lg-max': 1299,
+        'xl-min': 1300
       },
       navCollapseTimeout: 2500
     },
