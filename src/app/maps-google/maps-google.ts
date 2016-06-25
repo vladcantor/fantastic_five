@@ -8,7 +8,7 @@ import {ANGULAR2_GOOGLE_MAPS_DIRECTIVES} from 'angular2-google-maps/core';
   styles: ['sebm-google-map { height: 100% }']
 })
 export class MapsGoogle {
-  lat: number = -37.813179;
-  lng: number = 144.950259;
+  lat: number = 46.7568081;
+  lng: number = 23.595618;
   zoom: number = 12;
 }

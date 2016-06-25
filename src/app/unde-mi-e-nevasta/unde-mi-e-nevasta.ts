@@ -7,13 +7,15 @@ import {HolderJs} from '../components/holderjs/holderjs';
 import {NKDatetime} from 'ng2-datetime/ng2-datetime';
 import {Autosize} from 'angular2-autosize/angular2-autosize';
 import {AlertComponent} from 'ng2-bootstrap/components/alert';
+import {MapsGoogle} from '../maps-google/maps-google';
+import {ROUTER_DIRECTIVES} from '@angular/router-deprecated';
 declare var jQuery: any;
 
 @Component({
   selector: '[unde-mi-e-nevasta]',
   template: require('./unde-mi-e-nevasta.html'),
   encapsulation: ViewEncapsulation.None,
-  directives: [Widget, HolderJs, BootstrapWizard, BootstrapApplicationWizard, NKDatetime,  DropzoneDemo, HolderJs, Autosize, AlertComponent],
+  directives: [Widget, HolderJs, BootstrapWizard, BootstrapApplicationWizard, NKDatetime,  DropzoneDemo, HolderJs, Autosize, AlertComponent, MapsGoogle, ROUTER_DIRECTIVES],
   styles: [require('./unde-mi-e-nevasta.scss')]
 })
 export class UndeMiENevasta {
