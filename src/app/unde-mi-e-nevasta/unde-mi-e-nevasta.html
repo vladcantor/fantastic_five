@@ -14,46 +14,94 @@
               <ul class="nav-justified mb-sm nav nav-pills">
                 <li class="nav-item"><a class="nav-link" href="#tab1" data-toggle="tab">
                   <small>1.</small>
-                  Profilul {{this.Perechea}}</a></li>
+                  Profilul {{Perechea}} </a></li>
                 <li class="nav-item"><a class="nav-link" href="#tab2" data-toggle="tab">
                   <small>2.</small>
-                  Shipping</a></li>
+                  Verifica Amu</a></li>
               </ul>
               <div class="bg-gray-lighter progress-bar mt-xs">
                 <progress id="bar" class="progress progress-xs progress-bar-gray-light" value="100" max="100" style="width: 25%;"></progress>
               </div>
               <div class="tab-content">
                 <div class="tab-pane bg-gray-lighter" id="tab1">
-                  <form action='' method="POST"
-                        data-parsley-priority-enabled="false"
-                        novalidate="novalidate">
-                    <fieldset>
-                      <div class="form-group">
-                        <!-- Username -->
-                        <label for="username">Username</label>
-                        <input type="text" id="username" name="username" placeholder=""
-                               class="form-control"
-                               required="required">
-                        <span class="help-block">Username can contain any letters or numbers, without spaces</span>
+                  <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="form-group row">
+                          <div class="col-lg-6 col-xs-12">
+                            <div class="fileinput fileinput-new" data-provides="fileinput">
+                              <div class="fileinput-new thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;">
+                                <img holderjs data-src="holder.js/100%x100%" alt="..." src="">
+                              </div>
+                              <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+                              <div>
+                                <span class="btn btn-secondary btn-file"><span class="fileinput-new">{{Asta}}-i</span><span class="fileinput-exists">Nu-i {{Asta}}</span><input type="file" name="..."></span>
+                                <a href="#" class="btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+                              </div>
+                            </div>
+                            <span class="help-block">Pune o poza cu {{Inculpat}}.</span>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-md-8 col-xs-12">
+                            <div class="fileinput fileinput-new" data-provides="fileinput">
+                              <div class="fileinput-new thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;">
+                                <img holderjs data-src="holder.js/100%x100%" alt="..." src="">
+                              </div>
+                              <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+                              <div>
+                                <span class="btn btn-secondary btn-file"><span class="fileinput-new">Seamana cu {{Asta}}</span><span class="fileinput-exists">Nu Seamana cu {{Asta}}</span><input type="file" name="..."></span>
+                                <a href="#" class="btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <div style = "height:20%" class="form-group row">
+                          <label class="col-md-4 col-xs-12 form-control-label text-md-right" for="tooltip-enabled">Numar de inmatriculare</label>
+                          <div class="col-md-7 col-xs-12">
+                            <input type="text" id="tooltip-enabled" class="form-control"
+                                   data-toggle="tooltip"
+                                   data-placement="top" data-original-title="Da-i un nume"
+                                   placeholder="{{Asta}} a lu..">
+                          </div>
                       </div>
-                      <div class="form-group">
-                        <!-- Email -->
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email"
-                               placeholder="" class="form-control"
-                               data-parsley-trigger="change"
-                               required="required">
-                        <span class="help-block">Please provide your E-mail</span>
+                      <div style = "height:20%" class="form-group row">
+                        <div class="col-lg-6 col-xs-12">
+                          <p>
+                            Stalker mode
+                          </p>
+                        </div>
+                        <div class="col-lg-6 col-xs-12">
+                          <div class="checkbox-inline checkbox-ios">
+                            <label for="checkbox-ios1" class="switch">
+                              <input type="checkbox" class="ios" checked id="checkbox-ios1"><i></i>
+                            </label>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group">
-                        <!-- Password -->
-                        <label for="address">Address</label>
-                        <input type="text" id="address" name="address" placeholder=""
-                               class="form-control">
-                        <span class="help-block">Please provide your address</span>
+                      <div style = "height:20%" class="form-group row">
+                        <h5>Interval de adulmecare</h5>
+                        <form>
+                                <span class="slider-warning">
+                                  <input class="js-slider"
+                                         id="slider-ex11" data-slider-id='ex11Slider'
+                                         type="text" data-slider-min="0" data-slider-max="24"
+                                         data-slider-step="1" data-slider-value='[0,24]' /> &nbsp;
+                                </span>
+                        </form>
+
                       </div>
-                    </fieldset>
-                  </form>
+                      <div style = "height:20%" class="form-group row">
+                        <legend>
+                          Pana cand are rost?
+                        </legend>
+                        <div class="form-group">
+                          <datetime id="datetimepicker2i"></datetime>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane bg-gray-lighter" id="tab2">
                   <form action='' method="POST"
